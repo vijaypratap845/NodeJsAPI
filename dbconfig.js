@@ -1,14 +1,13 @@
 const config={
-    user:'foo',
-    password:'foo',
-    server:"MCNSolutions",
-    database:'Test',
+    user:'sa',
+    password:'Password$2',
+    server:"MCNDESKTOP35",
+    database:'DNH2023_Staging',
     options:{
-        trustedConnection:true,
-        enableArithPort:true,
-        instanceName:'SQLServer',
+        
+        encrypt: false
 
     },
-    Port:1433
+    Port:8080
 }
 module.exports=config;
